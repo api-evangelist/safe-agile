@@ -1,0 +1,145 @@
+vocabulary:
+  name: SAFe Agile Vocabulary
+  description: Domain vocabulary for the Scaled Agile Framework (SAFe) covering enterprise agile practices, roles, events, artifacts, and competencies.
+  version: "1.0.0"
+  created: "2026-05-02"
+  url: https://framework.scaledagile.com/
+
+terms:
+  - term: SAFe
+    label: Scaled Agile Framework
+    definition: >-
+      An enterprise-scale agile framework developed by Scaled Agile, Inc. that
+      organizes around five core disciplines to help organizations implement
+      agile practices across multiple teams at portfolio and program scale.
+    tags:
+      - Agile
+      - Framework
+
+  - term: ART
+    label: Agile Release Train
+    definition: >-
+      A long-lived team of Agile teams that, along with stakeholders, incrementally
+      develops, delivers, and operates one or more solutions in a value stream. An ART
+      typically includes 50-125 people.
+    tags:
+      - Agile
+      - Team Structure
+
+  - term: PI
+    label: Program Increment
+    definition: >-
+      A timebox of 8-12 weeks during which an ART delivers incremental value in the
+      form of working, tested software and systems. PI Planning is the key event.
+    tags:
+      - Agile
+      - Planning
+
+  - term: PIPlanning
+    label: PI Planning
+    definition: >-
+      A face-to-face, two-day event that aligns all teams on the ART to a shared
+      mission and vision for the upcoming program increment. Produces team PI objectives
+      and a program board showing dependencies.
+    tags:
+      - Agile
+      - Event
+      - Planning
+
+  - term: Epic
+    label: Epic
+    definition: >-
+      A significant initiative in the portfolio or program backlog that represents
+      a large body of work or a hypothesis to be tested. Portfolio epics span multiple
+      ARTs; feature epics are owned by a single ART.
+    tags:
+      - Backlog
+      - Planning
+
+  - term: Feature
+    label: Feature
+    definition: >-
+      A service that fulfills a stakeholder need. Features are the currency of the
+      program backlog and are sized to be deliverable within a program increment.
+    tags:
+      - Backlog
+      - Delivery
+
+  - term: UserStory
+    label: User Story
+    definition: >-
+      A short description of a small piece of desired functionality written from the
+      perspective of the user. Stories are the unit of work for individual teams
+      within a sprint/iteration.
+    tags:
+      - Backlog
+      - Team
+
+  - term: LeanPortfolioManagement
+    label: Lean Portfolio Management
+    definition: >-
+      One of SAFe's five core disciplines. It addresses strategy execution, portfolio
+      governance, investment validation, and enterprise architecture alignment across
+      the portfolio.
+    tags:
+      - Portfolio
+      - Strategy
+
+  - term: RTE
+    label: Release Train Engineer
+    definition: >-
+      The chief Scrum Master for the ART who facilitates ART events and processes,
+      coaches teams, and removes impediments to delivery. A servant leader for the ART.
+    tags:
+      - Role
+      - Agile
+
+  - term: SystemDemo
+    label: System Demo
+    definition: >-
+      A biweekly event where all teams on the ART demonstrate integrated and tested
+      working software from the iteration. This is how the ART inspects the integrated
+      solution.
+    tags:
+      - Event
+      - Demonstration
+
+  - term: InspectAndAdapt
+    label: Inspect and Adapt
+    definition: >-
+      A PI-level event where teams and stakeholders reflect on what was built and
+      how they built it, then identify improvements for the next PI. Includes a
+      problem-solving workshop.
+    tags:
+      - Event
+      - Improvement
+
+  - term: PIObjective
+    label: PI Objective
+    definition: >-
+      A summary of business and technical goals that an ART or team intends to achieve
+      during the program increment. Committed objectives have business value assigned
+      by Business Owners.
+    tags:
+      - Planning
+      - Objectives
+
+  - term: ValueStream
+    label: Value Stream
+    definition: >-
+      The series of steps an organization uses to build and deliver solutions to a
+      customer. SAFe distinguishes operational value streams (delivering value) from
+      development value streams (building systems).
+    tags:
+      - Strategy
+      - Portfolio
+
+  - term: SAFeCoPilot
+    label: SAFe CoPilot
+    definition: >-
+      An AI assistant developed by Scaled Agile, Inc. to answer questions about the
+      SAFe framework, provide guidance on agile practices, and support enterprise
+      agile transformation efforts.
+    tags:
+      - AI
+      - Tools

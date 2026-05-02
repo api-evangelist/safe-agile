@@ -1,0 +1,48 @@
+{
+  "title": "SAFe Agile Release Train Structure",
+  "description": "JSON structure documentation for the SAFe Agile Release Train data model",
+  "type": "object",
+  "structure": {
+    "id": {"type": "string", "description": "Unique ART identifier"},
+    "name": {"type": "string", "description": "ART name"},
+    "description": {"type": "string", "description": "ART purpose and scope"},
+    "value_stream": {"type": "string", "description": "Associated value stream"},
+    "rte": {
+      "type": "object",
+      "description": "Release Train Engineer",
+      "children": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "email": {"type": "string"}
+      }
+    },
+    "teams": {
+      "type": "array",
+      "description": "Agile teams on the ART (typically 5-12 teams)",
+      "items": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "type": {"type": "string", "description": "Agile or Kanban"},
+        "size": {"type": "integer", "description": "Number of team members"}
+      }
+    },
+    "program_increments": {
+      "type": "array",
+      "description": "Historical and planned PIs",
+      "items": {
+        "$ref": "safe-agile-program-increment-schema.json"
+      }
+    },
+    "backlog": {
+      "type": "array",
+      "description": "Program backlog features",
+      "items": {
+        "id": {"type": "string"},
+        "title": {"type": "string"},
+        "priority": {"type": "integer"},
+        "story_points": {"type": "integer"},
+        "pi_id": {"type": "string", "description": "Assigned PI"}
+      }
+    }
+  }
+}

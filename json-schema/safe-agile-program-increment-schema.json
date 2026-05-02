@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/safe-agile/main/json-schema/safe-agile-program-increment-schema.json",
+  "title": "SAFe Program Increment",
+  "description": "A Program Increment (PI) in the Scaled Agile Framework representing a 8-12 week timebox for ART delivery.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique program increment identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "PI name or number (e.g., PI-2026-Q2)"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "PI start date"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date",
+      "description": "PI end date"
+    },
+    "art_id": {
+      "type": "string",
+      "description": "Agile Release Train identifier"
+    },
+    "objectives": {
+      "type": "array",
+      "description": "PI objectives committed by teams",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "title": {"type": "string"},
+          "business_value": {"type": "integer", "minimum": 1, "maximum": 10},
+          "team_id": {"type": "string"},
+          "committed": {"type": "boolean"}
+        }
+      }
+    },
+    "iterations": {
+      "type": "array",
+      "description": "Sprints/iterations within the PI",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": {"type": "integer"},
+          "start_date": {"type": "string", "format": "date"},
+          "end_date": {"type": "string", "format": "date"},
+          "type": {
+            "type": "string",
+            "enum": ["development", "IP"],
+            "description": "Development iteration or Innovation and Planning"
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["planned", "in_progress", "completed"],
+      "description": "Current PI status"
+    }
+  },
+  "required": ["id", "name", "start_date", "end_date"]
+}

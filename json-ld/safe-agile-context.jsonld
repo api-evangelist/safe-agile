@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "safe": "https://scaledagile.com/vocab/",
+    "agile": "http://www.w3.org/ns/org#",
+
+    "AgilePractice": "safe:AgilePractice",
+    "AgileReleaseTrain": "safe:AgileReleaseTrain",
+    "ProgramIncrement": "safe:ProgramIncrement",
+    "Portfolio": "safe:Portfolio",
+    "Epic": "safe:Epic",
+    "Feature": "safe:Feature",
+    "UserStory": "safe:UserStory",
+    "Sprint": "safe:Sprint",
+    "Competency": "safe:Competency",
+    "Role": "safe:Role",
+    "Event": "schema:Event",
+    "Certification": "schema:Certification",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "version": "schema:version",
+    "url": "schema:url",
+
+    "LeanPortfolioManagement": "safe:LeanPortfolioManagement",
+    "TeamAndTechnicalAgility": "safe:TeamAndTechnicalAgility",
+    "ProductDevelopmentFlow": "safe:ProductDevelopmentFlow",
+    "LargeSolutionIntegration": "safe:LargeSolutionIntegration",
+    "LeadershipAndCulture": "safe:LeadershipAndCulture",
+
+    "ProductOwner": "safe:ProductOwner",
+    "ScrumMaster": "safe:ScrumMaster",
+    "ReleaseTrainEngineer": "safe:ReleaseTrainEngineer",
+    "SystemArchitect": "safe:SystemArchitect",
+    "BusinessOwner": "safe:BusinessOwner",
+
+    "PIPlanning": "safe:PIPlanning",
+    "SystemDemo": "safe:SystemDemo",
+    "Inspect": "safe:InspectAndAdapt",
+    "iteration": "safe:iteration"
+  }
+}
