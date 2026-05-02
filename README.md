@@ -60,6 +60,7 @@ Enterprise agile portfolio and risk management platform supporting SAFe, Nexus, 
 - [Blog](https://scaledagile.com/blog/)
 - [Certification](https://scaledagile.com/training/find-training-provider/)
 - [JSONSchema](json-schema/safe-agile-program-increment-schema.json)
+- [JSONStructure](json-structure/safe-agile-art-structure.json)
 - [JSONLDContext](json-ld/safe-agile-context.jsonld)
 - [Vocabulary](vocabulary/safe-agile-vocabulary.yml)
 

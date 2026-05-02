@@ -135,6 +135,8 @@ common:
     url: https://scaledagile.com/training/find-training-provider/
   - type: JSONSchema
     url: json-schema/safe-agile-program-increment-schema.json
+  - type: JSONStructure
+    url: json-structure/safe-agile-art-structure.json
   - type: JSONLDContext
     url: json-ld/safe-agile-context.jsonld
   - type: Vocabulary
