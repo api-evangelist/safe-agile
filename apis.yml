@@ -125,6 +125,8 @@ apis:
         url: https://www.inflectra.com/SpiraPlan/
 
 common:
+  - type: DomainSecurity
+    url: security/safe-agile-domain-security.yml
   - type: Website
     url: https://scaledagile.com/
   - type: Documentation
