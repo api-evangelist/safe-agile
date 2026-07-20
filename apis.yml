@@ -1,5 +1,6 @@
 aid: safe-agile
 name: SAFe Agile
+kind: topic
 description: >-
   The Scaled Agile Framework (SAFe) is an enterprise-scale agile framework
   developed by Scaled Agile, Inc. that provides guidance for implementing agile
