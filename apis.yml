@@ -12,7 +12,19 @@ description: >-
   delivery of value. SAFe tools integrate with CI/CD pipelines, ERP systems,
   and planning platforms to support enterprise agile transformation.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/safe-agile.png
 tags:
   - Agile
   - Enterprise
