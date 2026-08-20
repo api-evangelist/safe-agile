@@ -109,6 +109,11 @@ apis:
     humanURL: https://www.planview.com/resources/articles/safe-agile/
     tags:
       - Agile
+      - Portfolio-Management
+      - SAFe
+      - Enterprise Planning
+    tags_raw:
+      - Agile
       - Portfolio Management
       - SAFe
       - Enterprise Planning
@@ -127,6 +132,11 @@ apis:
       level planning artifacts.
     humanURL: https://www.inflectra.com/SpiraPlan/
     tags:
+      - Agile
+      - Portfolio-Management
+      - SAFe
+      - REST
+    tags_raw:
       - Agile
       - Portfolio Management
       - SAFe
