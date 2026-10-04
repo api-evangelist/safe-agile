@@ -120,7 +120,7 @@ apis:
     humanURL: https://www.planview.com/resources/articles/safe-agile/
     tags:
       - Agile
-      - Portfolio-Management
+      - Portfolio Management
       - SAFe
       - Enterprise Planning
     tags_raw:
@@ -128,6 +128,7 @@ apis:
       - Portfolio Management
       - SAFe
       - Enterprise Planning
+      - Portfolio-Management
     properties:
       - type: Documentation
         url: https://success.planview.com/
@@ -144,7 +145,7 @@ apis:
     humanURL: https://www.inflectra.com/SpiraPlan/
     tags:
       - Agile
-      - Portfolio-Management
+      - Portfolio Management
       - SAFe
       - REST
     tags_raw:
@@ -152,6 +153,7 @@ apis:
       - Portfolio Management
       - SAFe
       - REST
+      - Portfolio-Management
     properties:
       - type: Documentation
         url: https://www.inflectra.com/Support/KnowledgeBase/
