@@ -161,6 +161,12 @@ apis:
         url: https://www.inflectra.com/SpiraPlan/
 
 common:
+  - type: Plans
+    url: plans/safe-agile-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/safe-agile-rate-limits.yml
+  - type: FinOps
+    url: finops/safe-agile-finops.yml
   - type: DomainSecurity
     url: security/safe-agile-domain-security.yml
   - type: Website
