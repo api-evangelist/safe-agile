@@ -1,4 +1,4 @@
-# SAFe Agile
+# safe-agile
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,79 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The Scaled Agile Framework (SAFe) is an enterprise-scale agile framework developed by Scaled Agile, Inc. that provides guidance for implementing agile practices across large organizations with multiple teams. SAFe organizes around five core disciplines: Lean Portfolio Management, Team and Technical Agility, Product Development Flow, Large Solution Integration and Delivery, and Leadership and Culture.
+## safe-agile on APIs.io
 
-**URL:** [https://framework.scaledagile.com/](https://framework.scaledagile.com/)
+Everything profiled for safe-agile is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/safe-agile/](https://apis.io/providers/safe-agile/)** — or go straight to one of the APIs or properties below.
 
-## APIs
+## API Evangelist rating
 
-### Scaled Agile Framework (SAFe)
-The official SAFe framework providing comprehensive guidance for enterprise agile transformation including roles, events, artifacts, and competencies for Lean Portfolio Management, Agile Release Trains, and PI Planning.
+Not yet rated. See [apis.io/providers/safe-agile/](https://apis.io/providers/safe-agile/).
 
-**Human URL:** [https://framework.scaledagile.com/](https://framework.scaledagile.com/)
+## How this profile is made
 
-#### Tags
-- Agile, Enterprise, Framework, Scaled Agile
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-#### Properties
-- [Documentation](https://framework.scaledagile.com/)
-- [Website](https://scaledagile.com/)
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for safe-agile: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### Jira SAFe Integration
-Jira provides SAFe-aligned project management and PI planning with REST API access to SAFe backlogs, sprints, and program increments.
+## Open an issue
 
-**Human URL:** [https://www.atlassian.com/agile/safe](https://www.atlassian.com/agile/safe)
-
-#### Tags
-- Agile, Project Management, SAFe, PI Planning, REST
-
-#### Properties
-- [Documentation](https://developer.atlassian.com/cloud/jira/software/rest/intro/)
-
-### Azure DevOps SAFe Integration
-Azure DevOps provides SAFe-aligned planning with work items for Epics, Features, and User Stories, PI visualization, and REST API access.
-
-**Human URL:** [https://learn.microsoft.com/en-us/azure/devops/](https://learn.microsoft.com/en-us/azure/devops/)
-
-#### Tags
-- Agile, DevOps, SAFe, REST
-
-### Planview SAFe Tool
-Enterprise agile planning supporting SAFe with portfolio management, Lean flow, and Agile delivery for multi-ART organizations.
-
-**Human URL:** [https://www.planview.com/resources/articles/safe-agile/](https://www.planview.com/resources/articles/safe-agile/)
-
-#### Tags
-- Agile, Portfolio Management, SAFe, Enterprise Planning
-
-### SpiraPlan SAFe Tool
-Enterprise agile portfolio and risk management platform supporting SAFe, Nexus, Scrum of Scrums, and LeSS with REST API.
-
-**Human URL:** [https://www.inflectra.com/SpiraPlan/](https://www.inflectra.com/SpiraPlan/)
-
-#### Tags
-- Agile, Portfolio Management, SAFe, REST
-
-## Common Properties
-
-- [Website](https://scaledagile.com/)
-- [Documentation](https://framework.scaledagile.com/)
-- [Blog](https://scaledagile.com/blog/)
-- [Certification](https://scaledagile.com/training/find-training-provider/)
-- [JSONSchema](json-schema/safe-agile-program-increment-schema.json)
-- [JSONStructure](json-structure/safe-agile-art-structure.json)
-- [JSONLDContext](json-ld/safe-agile-context.jsonld)
-- [Vocabulary](vocabulary/safe-agile-vocabulary.yml)
-
-## Artifacts
-
-| Type | File |
-|---|---|
-| JSON Schema | [json-schema/safe-agile-program-increment-schema.json](json-schema/safe-agile-program-increment-schema.json) |
-| JSON Structure | [json-structure/safe-agile-art-structure.json](json-structure/safe-agile-art-structure.json) |
-| JSON-LD Context | [json-ld/safe-agile-context.jsonld](json-ld/safe-agile-context.jsonld) |
-| Vocabulary | [vocabulary/safe-agile-vocabulary.yml](vocabulary/safe-agile-vocabulary.yml) |
-
-## Maintainers
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/safe-agile/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
